@@ -7,5 +7,6 @@
   <Folder Name="/Services/">
     <Project Path="Mango.Services.AuthAPI/Mango.Services.AuthAPI.csproj" Id="817a6839-5d9a-4a31-adc7-52827dc1dd42" />
     <Project Path="Mango.Services.CouponAPI/Mango.Services.CouponAPI.csproj" />
+    <Project Path="Mango.Services.ProductAPI/Mango.Services.ProductAPI.csproj" Id="35cfb54b-1fbe-4e2b-a346-20fbd8638d4f" />
   </Folder>
 </Solution>
