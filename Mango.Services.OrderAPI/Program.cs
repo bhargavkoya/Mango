@@ -74,6 +74,8 @@ app.UseSwaggerUI(c =>
     }
 });
 
+Stripe.StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
+
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

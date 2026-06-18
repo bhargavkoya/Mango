@@ -7,6 +7,7 @@
     <Project Path="Mango.MessageBus/Mango.MessageBus.csproj" Id="4b036d80-7252-4a40-8170-43381807f7f2" />
   </Folder>
   <Folder Name="/Services/">
+    <File Path="Mango.Services.EmailAPI/Program.cs" />
     <Project Path="Mango.Services.AuthAPI/Mango.Services.AuthAPI.csproj" Id="817a6839-5d9a-4a31-adc7-52827dc1dd42" />
     <Project Path="Mango.Services.CouponAPI/Mango.Services.CouponAPI.csproj" />
     <Project Path="Mango.Services.EmailAPI/Mango.Services.EmailAPI.csproj" Id="15ec6844-ea30-4d91-b723-394559b84c05" />
