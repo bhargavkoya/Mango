@@ -40,6 +40,16 @@ namespace Mango.Web.Service
             });
         }
 
+        public async Task<ResponseDto?> UpdateOrderStatus(int orderId, string newStatus)
+        {
+            return await _baseService.SendAsync(new RequestDto()
+            {
+                ApiType = SD.ApiType.POST,
+                Data = newStatus,
+                Url = SD.OrderAPIBase + "/api/order/UpdateOrderStatus/" + orderId
+            });
+        }
+
         public async Task<ResponseDto?> CreateStripeSession(StripeRequestDto stripeRequestDto)
         {
             return await _baseService.SendAsync(new RequestDto()
